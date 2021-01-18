@@ -2,7 +2,7 @@
 <html>
    <h1> Submit and retrieve personal Tomtes! </h1>
  <p>
-  <a href = "https://github.com/HealthReminder/Tomte-HTML-Inputs"><h2> Click here to visualize the page. </h2></a>
+  <a href = "https://healthreminder.github.io/Tomte-HTML-Inputs/"><h2> Click here to visualize the page. </h2></a>
  </p>
   <a href = "https://en.wikipedia.org/wiki/Nisse_(folklore)" target = "_blank">
   <br>
