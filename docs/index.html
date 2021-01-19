@@ -1,22 +1,26 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<h1><p>PERSONAL TOMPTAS!</p></h1>
-<h2>
-    <p>
-        Tomptas live ten times faster than humans.<br />
 
-        Humans are very good at not seeing things they know aren't there.<br />
-        And since sensible humans know that there are no such things as pointy head homunculi.<br />
-        A Tompta who doesn't want to be seen probably won't be seen.<br />
-    </p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Gl%C3%A6delig_Jul%2C_1885.jpg/800px-Gl%C3%A6delig_Jul%2C_1885.jpg" alt="A Tomte." width="400px" height="600" />
-</h2>
 <head>
     <meta charset="utf-8" />
     <title>Tompta and You!</title>
 </head>
 <body>
+    <!--Title-->
+    <h1><p>PERSONAL TOMPTAS!</p></h1>
+    <h2>
+        <p>
+            <!--Description-->
+            Tomptas live ten times faster than humans.<br />
+
+            Humans are very good at not seeing things they know aren't there.<br />
+            And since sensible humans know that there are no such things as pointy head homunculi.<br />
+            A Tompta who doesn't want to be seen probably won't be seen.<br />
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Gl%C3%A6delig_Jul%2C_1885.jpg/800px-Gl%C3%A6delig_Jul%2C_1885.jpg" alt="A Tomte." width="400px" height="600" />
+    </h2>
+    <!--Login-->
     <h3>Access your master Tompta:</h3>
     <form>
         <input type="email" placeholder="Email address"><br />
@@ -26,6 +30,7 @@
     <br />
     <h3>OR</h3>
     <br />
+    <!--Create new-->
     <h3>Summon a new Tompta:</h3>
     <form id="Create-Tomte-Form">
         <p>Tompta name: <input type="text" placeholder="João"></p><br /><br />
@@ -35,22 +40,24 @@
         <p>Initial bean quantity: <input type="number"></p><br /><br />
         <p>Tornado orientation: <input type="range"></p><br /><br />
 
-        <label for="checkboxsexample"><input id="chonk" type="checkbox" name="checkboxsexample"></label>   Chonk<br />
-        <label for="checkboxsexample"><input id="puffer" type="checkbox" name="checkboxsexample"></label>   Puffer<br />
-        <label for="checkboxsexample"><input id="swirl" type="checkbox" name="checkboxsexample"></label>   Swirl<br />
+         <!-- Multiple choice -->
+        <input id="chonk" type="checkbox" name="checkboxsexample">  <label for="chonk">Chonk</label><br />
+        <input id="puff" type="checkbox" name="checkboxsexample">  <label for="puff">Puff</label><br />
+        <input id="swirl" type="checkbox" name="checkboxsexample">  <label for="swirl">Swirl</label><br />
         <br />
 
-        <label for="checkboxsexample"><input id="happy" type="radio" name="checkboxsexample"></label>   Happy
-        <label for="checkboxsexample"><input id="littler" type="radio" name="checkboxsexample"></label>   Little
-        <label for="checkboxsexample"><input id="tree" type="radio" name="checkboxsexample"></label>   Tree
+        <!-- Unique choice -->
+        <input id="happy" type="radio" name="checkboxsexample">  <label for="happy">Happy </label>
+        <input id="little" type="radio" name="checkboxsexample">   <label for="little">Little </label>
+        <input id="tree" type="radio" name="checkboxsexample">   <label for="tree">Tree </label><br />
         <br /><br />
 
         <button type="button" onclick="alert('Your souls were sealed.')">Click here</button><br /><br /><br />
 
         <!--Images can be used as buttons!-->
         <!--<input type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Zwerg_Postkarte_001.jpg/220px-Zwerg_Postkarte_001.jpg"
-        alt="Submit button that is an image of a mushroom" width="220" height="343"><br>
-         -->
+    alt="Submit button that is an image of a mushroom" width="220" height="343"><br>
+     -->
         <label><button id="Submit-Button" value="Submit">Submit</button></label><br><br /><br />
 
 
